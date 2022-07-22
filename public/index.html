@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chate App</title>
+  </head>
+  <body>
+    <section class="chat__section">
+      <!-- Brand Logo -->
+      <div class="brand">
+        <img src="img/wassup.png" alt="brand" />
+        <html>
+          Chat-App
+        </html>
+      </div>
+      <!-- Message Area -->
+      <div class="message__area">
+        <!-- incoming message -->
+        <!-- <div class="incoming message">
+          <h4>Hiten</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            qui?
+          </p>
+        </div> -->
+        <!-- outgoing message -->
+        <!-- <div class="outgoing message">
+          <h4>Hiten</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            qui?
+          </p>
+        </div> -->
+      </div>
+      <!-- Message Area End -->
+      <!-- Textarea Start -->
+      <div>
+        <textarea
+          id="textarea"
+          style="resize: none"
+          cols="30"
+          rows="1"
+          placeholder="Write a message"
+        ></textarea>
+      </div>
+      <!-- Textarea End -->
+    </section>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
